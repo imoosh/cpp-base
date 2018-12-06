@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//base/types/types.h
+stdint.h
+-
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+errno.h
+-
+iostream
+-
+string
+-
+ext/vstring.h
+-
+ext/vstring_fwd.h
+-
+
+/home/win/work/CodeBase/base/test/process_name.cc
+base/types/types.h
+-
+boost/filesystem.hpp
+-
+

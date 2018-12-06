@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libbase.a  CMakeFiles/base.dir/types/types.cc.o CMakeFiles/base.dir/time/timestamp.cc.o CMakeFiles/base.dir/timer/posix_timer.cc.o CMakeFiles/base.dir/thread/mutexlock.cc.o CMakeFiles/base.dir/thread/condvariable.cc.o CMakeFiles/base.dir/thread/thread.cc.o CMakeFiles/base.dir/buffer/buffer.cc.o CMakeFiles/base.dir/logging/logger.cc.o CMakeFiles/base.dir/logging/logging.cc.o CMakeFiles/base.dir/logging/async_logging.cc.o CMakeFiles/base.dir/logging/logging_file.cc.o CMakeFiles/base.dir/file/append_file.cc.o
+/usr/bin/ranlib ../lib/libbase.a

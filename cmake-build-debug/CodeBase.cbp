@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CodeBase"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\base\;CMake Files\base\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/lib/libbase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 base"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base/fast">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/lib/libbase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 base/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="async_logging_test">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/async_logging_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 async_logging_test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="async_logging_test/fast">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/async_logging_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 async_logging_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="singleton_test">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/singleton_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 singleton_test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="singleton_test/fast">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/singleton_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 singleton_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logging_file_test">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/logging_file_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 logging_file_test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logging_file_test/fast">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/logging_file_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 logging_file_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timestamp_test">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/timestamp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 timestamp_test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timestamp_test/fast">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/timestamp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 timestamp_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="posix_timer_test">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/posix_timer_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 posix_timer_test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="posix_timer_test/fast">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/posix_timer_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 posix_timer_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_test">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/thread_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 thread_test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_test/fast">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/thread_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 thread_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logger_test">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/logger_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 logger_test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logger_test/fast">
+				<Option output="/home/win/work/CodeBase/cmake-build-debug/bin/logger_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/win/work/CodeBase/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/win/work/CodeBase"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 logger_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/win/work/CodeBase/cmake-build-debug/base/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/win/work/CodeBase/base/buffer/buffer.cc">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/buffer/buffer.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/file/append_file.cc">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/file/append_file.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/logging/async_logging.cc">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/logging/async_logging.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/logging/logger.cc">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/logging/logger.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/logging/logging.cc">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/logging/logging.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/logging/logging_file.cc">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/logging/logging_file.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/test/async_logging_test.cc">
+			<Option target="async_logging_test"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/test/logger_test.cc">
+			<Option target="logger_test"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/test/logging_file_test.cc">
+			<Option target="logging_file_test"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/test/posix_timer_test.cc">
+			<Option target="posix_timer_test"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/test/singleton_test.cc">
+			<Option target="singleton_test"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/test/thread_test.cc">
+			<Option target="thread_test"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/test/timestamp_test.cc">
+			<Option target="timestamp_test"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/thread/condvariable.cc">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/thread/condvariable.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/thread/mutexlock.cc">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/thread/mutexlock.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/thread/thread.cc">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/thread/thread.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/time/timestamp.cc">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/time/timestamp.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/timer/posix_timer.cc">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/types/types.cc">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/types/types.h">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\"/>
+		</Unit>
+		<Unit filename="/home/win/work/CodeBase/base/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

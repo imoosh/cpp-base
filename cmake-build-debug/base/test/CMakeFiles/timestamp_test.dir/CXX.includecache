@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//base/time/timestamp.h
+stdint.h
+-
+boost/noncopyable.hpp
+-
+base/types/types.h
+-
+
+..//base/types/types.h
+stdint.h
+-
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+errno.h
+-
+iostream
+-
+string
+-
+ext/vstring.h
+-
+ext/vstring_fwd.h
+-
+
+/home/win/work/CodeBase/base/test/timestamp_test.cc
+base/time/timestamp.h
+-
+base/types/types.h
+-
+
